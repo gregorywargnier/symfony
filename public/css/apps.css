@@ -1,0 +1,67 @@
+html, body{
+    min-height: 100vh;
+    margin: 0;
+}
+
+.landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url('../images/landing.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.landing-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 0, 0, 0, 0.5 );
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing h1{
+    font-size: 4rem;
+}
+
+.landing p{
+    font-size: 1.8rem;
+}
+
+.landing a.btn{
+    font-size: 2rem;
+}
+
+.events{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.events .event{
+    width: calc( 33% - 40px );
+    margin: 20px;
+}
+
+.events .event-picture{
+    height: 200px;
+    background-size: cover;
+    background-position: right;
+    position: relative;
+}
+
+.events .event-info{
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.3rem;
+}
+
+.events .badge-pill{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,16 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Accueil - {{parent()}}{% endblock %}
+
+{% block body %}
+<div class="landing">
+    <h1>symfony</h1>
+        <p>Installées à Lille depuis plus de 20 ans, notre bar est reconnu dans la région entière. Nous sommes réputés pour nos différentes 
+        biere ainsi que nos evenements que l'on organise souvent.</p>
+    <h2> evenements</h2>
+        <p>Rejoignez des passionnés de bière autour d'un événement autour divers</p>
+        <a href="{{ path('event_list') }}" class="btn btn-primary">evenement</a>
+
+ </div>
+
+{% endblock %}
